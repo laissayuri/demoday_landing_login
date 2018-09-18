@@ -204,7 +204,6 @@ nav{
     display: flex;
     border: 2px solid #650164;
     color: #650164;
-    padding: 10px;
     border-radius: 13px;
     font-size: 13pt;
     font-weight: 600;
@@ -214,6 +213,7 @@ nav{
 #cadastro form button a{
     text-decoration: none;
     color: #650164;
+    padding: 10px;
 }
 
 #cadastro form button:hover{
@@ -226,6 +226,7 @@ nav{
     font-size: 13pt;
     font-weight: 600;
 }
+
 #cadastro form button a:hover{
     color: #ffca2c;
 }
