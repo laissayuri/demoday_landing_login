@@ -28,31 +28,32 @@ nav{
     padding: 20px;
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     transition: 0.3s;
 }
 
 .scroll{
     padding: 20px;
     background-color: #650164;
+    color: white;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    color: white;
 }
 
 nav > img{
     height: 40px;
+    margin-left: 80px;
+    width: 157.3px;
+    
 }
 
 #menu{
     padding: 0 50px;
-    margin-left: 275px;
     color: white;
     font-size: 13pt;
     display: flex;
-    justify-content: flex-end;
     flex-direction: row;
     align-items: center;
 }
@@ -176,19 +177,21 @@ nav > img{
 
 #equipe{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     background-color: #945193;
     color: white;
 }
 
 #equipe div{
-    width: 50vw;
+    
 }
 
 #equipe img{
-    width: 500px;
-    height: 200px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    margin-top: 25px;
+    
 }
 
 #cadastro form{
