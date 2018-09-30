@@ -42,8 +42,13 @@ nav{
     color: white;
 }
 
+nav > img{
+    height: 40px;
+}
+
 #menu{
     padding: 0 50px;
+    margin-left: 275px;
     color: white;
     font-size: 13pt;
     display: flex;
@@ -101,7 +106,7 @@ nav{
 
 #banner p{
     display: flex;
-    width: 30%;
+    width: 35%;
     margin: 100px;
     font-size: 30pt;
     font-weight: bold;
@@ -115,11 +120,13 @@ nav{
 #voce-sabia{
     display: flex;
     flex-direction: column;
+    
 }
 
 #dados{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 #dados h2{
@@ -204,7 +211,6 @@ nav{
     display: flex;
     border: 2px solid #650164;
     color: #650164;
-    padding: 10px;
     border-radius: 13px;
     font-size: 13pt;
     font-weight: 600;
@@ -214,6 +220,7 @@ nav{
 #cadastro form button a{
     text-decoration: none;
     color: #650164;
+    padding: 10px;
 }
 
 #cadastro form button:hover{
@@ -226,6 +233,7 @@ nav{
     font-size: 13pt;
     font-weight: 600;
 }
+
 #cadastro form button a:hover{
     color: #ffca2c;
 }
@@ -240,6 +248,18 @@ nav{
 
 #menu-contato p{
     font-size: 12pt;
+}
+
+#menu-footer-logo{
+    display: gflex;
+    flex-direction: column;
+}
+
+#menu-footer-logo > img{
+    height: 40px;
+    width: 157.3px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 #menu-footer{
